@@ -44,7 +44,15 @@ int main()
     //mengisi data melalui perulangan
     for (int i = 0; i <= 4; i++)
     {
-        cout << "Isikan data"
+        cout << "Isikan data ke-" << (i + 1) << " : ";
+        cin >> datamu [i];
     }
+    cout << endl;
 
+    cout << "tampilkan data array menggunakan for" << endl;
+    //Menampilkan data dengan perulangan 
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "data ke-" << (i + 1) << " : " <<datamu [i] << endl;
+    }
 }
